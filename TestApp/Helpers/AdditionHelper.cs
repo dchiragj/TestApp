@@ -2,13 +2,13 @@
 
 public interface IAdditionHelper
 {
-    int Add(int param1, int param2);
+    int Add(int num1, int num2);
 }
 
 public class AdditionHelper : IAdditionHelper
 {
-    public int Add(int param1, int param2)
+    public int Add(int num1, int num2)
     {
-        return param1 + param2;
+        return num1 + num2;
     }
 }

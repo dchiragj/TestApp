@@ -20,7 +20,7 @@ namespace TestApp.Controllers
         [HttpPost(Name = "Add")]
         public async Task<int> Post(SummationRequest summation)
         {
-            return _additionHelper.Add(summation.Param1,summation.Param2);
+            return _additionHelper.Add(summation.Num1,summation.Num2);
         }
     }
 }
